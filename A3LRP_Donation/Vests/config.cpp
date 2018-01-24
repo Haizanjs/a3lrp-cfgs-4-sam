@@ -3,7 +3,7 @@ class CfgPatches
 	class A3LRP_Donation_Vests
 	{
 		units[]={};
-		weapons[]={"A3LRP_Donation_Vest_Test"};
+		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]={"A3_Characters_F"};
 		version="2018-01-24";
@@ -66,8 +66,8 @@ class cfgWeapons
 	//--- Base Class -- End
 	
 	
-	//--- Test Classes - Start
-	#include "\A3LRP_Donation\Vests\test.hpp"
-	//--- Test Classes - End
+	//--- Vests Donation - Start
+	#include "\A3LRP_Donation\Vests\Donation_Vests.hpp"
+	//--- Vests Donation - End
 	
 };
