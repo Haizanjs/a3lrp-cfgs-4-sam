@@ -15,6 +15,8 @@ class cfgVehicles
 {	
 	class ALRP_Mustang;
 	class MercG65;
+	class NissanGTR;
 	#include "\Lannister\Vehicles\MercG65\config.hpp"
 	#include "\Lannister\Vehicles\FordMustang\config.hpp"
+	#include "\Lannister\Vehicles\NissanGTR\config.hpp"
 };
