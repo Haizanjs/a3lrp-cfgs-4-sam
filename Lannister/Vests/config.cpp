@@ -47,7 +47,7 @@ class cfgWeapons
 	//--- Base Class -- Start
 	class A3LRP_Donation_Vest_Base: V_PlateCarrier1_rgr
 	{
-		picture="\A3LRP_Donation\Vests\data\ico\ico.paa";
+		picture="\Lannister\Vests\data\ico\ico.paa";
 		model="\A3\Characters_F\BLUFOR\equip_b_vest02";
 		author="A3LRP Development Team";
 		class ItemInfo: ItemInfo
@@ -67,7 +67,7 @@ class cfgWeapons
 	
 	
 	//--- Vests Donation - Start
-	#include "\A3LRP_Donation\Vests\Donation_Vests.hpp"
+	#include "\Lannister\Vests\Donation_Vests.hpp"
 	//--- Vests Donation - End
 	
 };

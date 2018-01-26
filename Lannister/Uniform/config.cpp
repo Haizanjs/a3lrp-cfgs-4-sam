@@ -30,7 +30,7 @@ class CfgVehicles
 		scope=1;
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
 		hiddenSelections[]={"camo","insignia"};
-		hiddenSelectionsTextures[]={"\A3LRP_Donation\Uniform\data\base.paa"};
+		hiddenSelectionsTextures[]={"\Lannister\Uniform\data\base.paa"};
 	};
 	//--- Donation Uniform Base
 };
@@ -62,7 +62,7 @@ class cfgWeapons
 	{
 		scope=2;
 		displayName="House Lannister Uniform (Kryptec)";
-		picture="\A3LRP_Donation\Uniform\data\ico\ico.paa";
+		picture="\Lannister\Uniform\data\ico\ico.paa";
 		model="\A3\characters_f_beta\INDEP\ia_soldier_02.p3d";
 		class ItemInfo: UniformItem
 		{

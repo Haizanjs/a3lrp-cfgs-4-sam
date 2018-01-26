@@ -15,6 +15,6 @@ class cfgVehicles
 {	
 	class ALRP_Mustang;
 	class MercG65;
-	#include "\A3LRP_Donation\Vehicles\MercG65\config.hpp"
-	#include "\A3LRP_Donation\Vehicles\FordMustang\config.hpp"
+	#include "\Lannister\Vehicles\MercG65\config.hpp"
+	#include "\Lannister\Vehicles\FordMustang\config.hpp"
 };
