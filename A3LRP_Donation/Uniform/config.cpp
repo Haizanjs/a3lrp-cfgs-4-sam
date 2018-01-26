@@ -19,10 +19,6 @@ class UniformSlotInfo
  
 class CfgVehicles
 {
-	class ivory_evox_base;
-	class tw_van_base;
-	class Urbanized_67Mustang;
-	class red_suburban_15_base;
 	class Bag_Base;
 	class B_Soldier_base_F;
 	class B_Competitor_F;
