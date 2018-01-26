@@ -10,3 +10,5 @@ class CfgPatches
 	};
 };
 
+
+#define Lannister_Mod_Version 1.0.0
