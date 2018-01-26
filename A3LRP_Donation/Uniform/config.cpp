@@ -25,7 +25,7 @@ class CfgVehicles
 	class C_man_1;
 	
 	//--- Donation Uniform Base
-	class A3LRP_Donation_Uniform_Base: B_Soldier_base_F
+	class A3LRP_Lannister_Uniform_Base: B_Soldier_base_F
 	{
 		scope=1;
 		model="\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
@@ -58,15 +58,15 @@ class cfgWeapons
 	};
 	
 	//--- Donation Uniform Base
-	class A3LRP_Donation_Uniform_Base_Uni: Uniform_Base
+	class A3LRP_Lannister_Uniform_Base_Uni: Uniform_Base
 	{
 		scope=2;
-		displayName="A3LRP Donation Uniform (Base)";
+		displayName="House Lannister Uniform (Kryptec)";
 		picture="\A3LRP_Donation\Uniform\data\ico\ico.paa";
 		model="\A3\characters_f_beta\INDEP\ia_soldier_02.p3d";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="A3LRP_Donation_Uniform_Base";
+			uniformClass="A3LRP_Lannister_Uniform_Base";
 			containerClass="Supply50";
 			mass=50;
 		};
