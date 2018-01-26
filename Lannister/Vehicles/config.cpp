@@ -5,7 +5,7 @@ class CfgPatches
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]={"A3_Characters_F"};
+		requiredAddons[]={"LandRover","G65","GTR"};
 		version="2018-01-24";
 	};
 };
