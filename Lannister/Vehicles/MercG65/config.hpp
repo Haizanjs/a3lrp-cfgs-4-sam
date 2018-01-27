@@ -6,7 +6,7 @@ class A3LRP_LanV_Red_MercG65 : MercG65
 	hiddenSelectionsTextures[] = {"\Lannister\Vehicles\MercG65\Red.paa"};
 };
 
-class A3LRP_LanV_Red_MercG65 : MercG65
+class A3LRP_LanV_Kryptec_MercG65 : MercG65
 {
 	scope = 2;
 	displayName = "A3LRP Mercedes-Benz G65 AMG (House Lannister Kryptec)";
@@ -14,7 +14,7 @@ class A3LRP_LanV_Red_MercG65 : MercG65
 	hiddenSelectionsTextures[] = {"\Lannister\Vehicles\MercG65\Kryptec.paa"};
 };
 
-class A3LRP_LanV_Red_MercG65 : MercG65
+class A3LRP_LanV_White_MercG65 : MercG65
 {
 	scope = 2;
 	displayName = "A3LRP Mercedes-Benz G65 AMG (House Lannister White)";
