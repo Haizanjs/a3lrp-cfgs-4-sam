@@ -53,10 +53,59 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
 		{
 			uniformModel="A3\Characters_F\BLUFOR\equip_b_vest02";
-			containerClass="Supply100";
-			mass=40;
-			armor=100;
-			passThrough=0.5;
+			containerClass="Supply130";
+			mass=1;
+			class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 24;
+                    passThrough = 0.001;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 24;
+                    passThrough = 0.001;
+                };
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 24;
+                    passThrough = 0.001;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 24;
+                    passThrough = 0.001;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 24;
+                    passThrough = 0.001;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 24;
+                    passThrough = 0.001;
+                };
+                class Pelvis
+                {
+                    hitpointName = "HitPelvis";
+                    armor = 24;
+                    passThrough = 0.001;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    armor = 24;
+                    passThrough = 0.001;
+                };
+            };
 			hiddenSelections[]=
 			{
 				"camo"
