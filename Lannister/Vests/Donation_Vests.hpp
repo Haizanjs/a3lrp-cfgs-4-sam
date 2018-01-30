@@ -77,3 +77,12 @@ class A3LRP_LanV_Lev: A3LRP_Donation_Vest_Base
 	hiddenSelections[]={"camo"};
 	hiddenSelectionsTextures[]={"Lannister\Vests\data\Levy.paa"};
 };
+
+class A3LRP_LanV_Ride: A3LRP_Donation_Vest_Base
+{
+	scope=2;
+	displayName="House Lannister Vest (Ridealong)";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"Lannister\Vests\data\Ridealong.paa"};
+};
+
