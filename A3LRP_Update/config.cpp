@@ -5,7 +5,7 @@ class CfgPatches
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]={};
+		requiredAddons[]={"A3LRP_Client2"};
 		version="2018-01-24";
 	};
 };
